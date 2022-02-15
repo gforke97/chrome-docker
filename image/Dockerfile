@@ -1,6 +1,7 @@
 FROM ubuntu:latest
 
 RUN apt-get update && apt-get clean && apt-get install -y \
+    gnupg \
     x11vnc \
     xvfb \
     fluxbox \
